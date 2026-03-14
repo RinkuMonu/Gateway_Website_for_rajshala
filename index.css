@@ -1,0 +1,15 @@
+@keyframes softLift {
+            0% { transform: translateY(0); box-shadow: 0 20px 30px -10px rgba(0,60,30,0.1); }
+            100% { transform: translateY(-6px); box-shadow: 0 30px 40px -12px rgba(0,80,40,0.25); }
+        }
+        .animate-lift {
+            transition: all 0.2s ease;
+        }
+        .animate-lift:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 30px 40px -15px rgba(0, 100, 40, 0.3);
+        }
+
+        html {
+  scroll-behavior: smooth;
+}

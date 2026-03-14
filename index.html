@@ -1,0 +1,955 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="bg-[#134E4A] text-white min-h-[80vh] flex flex-col">
+      <!-- Header -->
+      <header class="bg-transparent py-4">
+        <div class="max-w-7xl mx-auto px-6 flex items-center justify-between">
+          <!-- Logo -->
+          <div class="flex items-center gap-2">
+            <img src="images/logo.png" alt="Logo" class="h-8" />
+          </div>
+
+          <!-- Navigation -->
+          <nav class="hidden md:flex items-center gap-8 text-white font-medium">
+            <a href="index.html" class="hover:text-yellow-300">Home</a>
+            <a href="#about" class="hover:text-yellow-300">About</a>
+            <a href="#payoutapis" class="hover:text-yellow-300"
+              >Payout APIs</a
+            >
+            <a href="#pricing" class="hover:text-yellow-300">Pricing</a>
+            <a href="#faqs" class="hover:text-yellow-300">FAQs</a>
+            <a href="contact.html" class="hover:text-white transition"
+              >Contact</a
+            >
+          </nav>
+
+          <!-- Right Side -->
+          <div class="flex items-center gap-6">
+            <a href="#" class="text-white font-medium hover:text-yellow-300">
+              Sign in
+            </a>
+
+            <a href="#" class="text-yellow-400 rounded-full transition">
+              <i class="fa-regular fa-circle-user fa-2x"></i>
+            </a>
+          </div>
+        </div>
+      </header>
+
+      <!-- Hero Content -->
+      <div class="flex-1 flex items-center">
+        <div
+          class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-10 w-full"
+        >
+          <!-- Text -->
+          <div class="max-w-xl">
+            <h1 class="text-4xl md:text-5xl font-bold leading-tight">
+              Fast & Secure <span class="text-yellow-300">Payout Services</span>
+            </h1>
+
+            <p class="mt-4 text-lg text-gray-100">
+              Transfer money instantly to bank accounts using IMPS, NEFT & UPI.
+              Reliable payout solutions for businesses, merchants, and partners.
+            </p>
+
+            <div class="mt-6 flex gap-4 flex-wrap">
+              <a
+                href="contact.html"
+                class="bg-white text-[#0D9488] font-semibold px-6 py-3 rounded-lg shadow hover:bg-gray-100 transition"
+              >
+                Get Started
+              </a>
+
+              <a
+                href="#about"
+                class="border border-white px-6 py-3 rounded-lg hover:bg-white hover:text-[#0D9488] transition"
+              >
+                Learn More
+              </a>
+            </div>
+
+            <div class="flex gap-6 mt-6 text-lg flex-wrap">
+              <span>⚡ Instant Transfer</span>
+              <span>🔒 Secure Payments</span>
+              <span>🏦 Direct Bank Credit</span>
+            </div>
+          </div>
+
+          <!-- Image -->
+          <div class="w-full md:w-1/2">
+            <img
+              src="/images/vec1.png"
+              alt="Payout Services"
+              class="w-full max-w-md mx-auto"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="text-gray-700 py-20 px-6">
+      <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+        <!-- Image -->
+        <div class="flex justify-center">
+          <img
+            src="/images/vec2.webp"
+            alt="Payout Services"
+            class="w-full max-w-2xl"
+          />
+        </div>
+
+        <!-- Content -->
+        <div>
+          <span
+            class="bg-yellow-400 text-[#134E4A] px-4 py-1 rounded-full text-sm font-semibold"
+          >
+            What is Payout Service?
+          </span>
+
+          <h2 class="text-3xl md:text-4xl font-bold mt-4 leading-tight">
+            Simplify Business Payments with
+            <span class="text-yellow-400">Automated Payouts</span>
+          </h2>
+
+          <p class="mt-5 text-gray-600 text-lg">
+            Payout services are digital platforms that enable businesses to
+            automate, manage, and execute outgoing payments seamlessly.
+            Companies can transfer funds instantly or in bulk to beneficiaries
+            such as vendors, partners, employees, or customers.
+          </p>
+
+          <p class="mt-4 text-gray-600">
+            With integrated banking networks and payment rails like
+            <strong>IMPS, NEFT, and UPI, payout systems</strong> ensure fast,
+            secure, and reliable transfers while reducing manual effort and
+            operational delays.
+          </p>
+
+          <!-- Features -->
+          <div class="grid grid-cols-2 gap-4 mt-8 text-sm">
+            <div class="flex items-center gap-2">
+              <span class="text-yellow-400">⚡</span>
+              <span>Instant Transfers</span>
+            </div>
+
+            <div class="flex items-center gap-2">
+              <span class="text-yellow-400">📦</span>
+              <span>Bulk Payments</span>
+            </div>
+
+            <div class="flex items-center gap-2">
+              <span class="text-yellow-400">🔒</span>
+              <span>Secure Transactions</span>
+            </div>
+
+            <div class="flex items-center gap-2">
+              <span class="text-yellow-400">🏦</span>
+              <span>Direct Bank Credits</span>
+            </div>
+          </div>
+
+          <!-- Button -->
+          <!-- <div class="mt-8">
+        <a href="#"
+          class="bg-yellow-400 text-[#134E4A] font-semibold px-6 py-3 rounded-lg hover:bg-yellow-300 transition">
+          Explore Payout Services
+        </a>
+      </div> -->
+        </div>
+      </div>
+    </section>
+
+    <section class="py-20 px-6">
+      <div class="max-w-7xl mx-auto">
+        <!-- Heading -->
+        <h2 class="text-4xl font-bold">How does Payout API work</h2>
+        <div class="w-16 h-1 bg-yellow-400 mt-3 mb-12"></div>
+
+        <!-- Steps Grid -->
+        <div class="grid md:grid-cols-4 gap-8">
+          <!-- Step 1 -->
+          <div class="rounded-2xl p-8 hover:shadow-2xl transition shadow-xl">
+            <h3 class="text-2xl font-semibold text-yellow-400">Step 1:</h3>
+            <p class="mt-4 text-gray-700 text-lg">
+              Sign up on the Connect App to access payout services.
+            </p>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="rounded-2xl p-8 hover:shadow-2xl transition shadow-xl">
+            <h3 class="text-2xl font-semibold text-yellow-400">Step 2:</h3>
+            <p class="mt-4 text-gray-700 text-lg">
+              Submit the required business documents for verification and
+              onboarding.
+            </p>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="rounded-2xl p-8 hover:shadow-2xl transition shadow-xl">
+            <h3 class="text-2xl font-semibold text-yellow-400">Step 3:</h3>
+            <p class="mt-4 text-gray-700 text-lg">
+              Integrate the Payout API into your platform using developer
+              documentation.
+            </p>
+          </div>
+
+          <!-- Step 4 -->
+          <div
+            class="rounded-2xl p-8 hover:shadow-2xl transition shadow-xl md:col-span-1"
+          >
+            <h3 class="text-2xl font-semibold text-yellow-400">Step 4:</h3>
+            <p class="mt-4 text-gray-700 text-lg">
+              Start making instant payments to vendors, partners, or customers.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="payoutservices" class="my-10 py-10 px-6 bg-white">
+      <div class="max-w-7xl mx-auto">
+        <!-- Heading -->
+        <h2 class="text-5xl font-bold text-gray-800 mb-10">Payout Services</h2>
+
+        <!-- Tabs -->
+        <div class="flex gap-8 border-b mb-10 text-lg font-medium">
+          <button
+            class="tab-btn pb-3 border-b-3 border-[#134E4A]"
+            onclick="openTab(event, 'ecommerce')"
+          >
+            E-Commerce
+          </button>
+          <button class="tab-btn pb-3" onclick="openTab(event, 'education')">
+            Education
+          </button>
+          <button class="tab-btn pb-3" onclick="openTab(event, 'bfsi')">
+            BFSI
+          </button>
+          <button class="tab-btn pb-3" onclick="openTab(event, 'saas')">
+            SaaS
+          </button>
+        </div>
+
+        <!-- Tab Content -->
+        <div class="grid md:grid-cols-2 gap-10">
+          <!-- Text -->
+          <div>
+            <div id="ecommerce" class="tab-content">
+              <h3 class="text-4xl font-bold mb-4">
+                Empower your
+                <span class="text-[#134E4A]">e-commerce business</span>
+              </h3>
+              <p class="text-gray-600 mb-6">
+                Streamline payment management with a unified dashboard enabling
+                online and offline payments.Streamline payment management with a
+                unified dashboard enabling online and offline
+                payments.Streamline payment management with a unified dashboard
+                enabling online and offline payments.Streamline payment
+                management with a unified dashboard enabling online and offline
+                payments.Streamline payment management with a unified dashboard
+                enabling online and offline payments.Streamline payment
+                management with a unified dashboard enabling online and offline
+                payments.
+              </p>
+            </div>
+
+            <div id="education" class="tab-content hidden">
+              <h3 class="text-4xl font-bold mb-4">
+                Modern <span class="text-[#134E4A]">education payments</span>
+              </h3>
+              <p class="text-gray-600 mb-6">
+                Collect school fees, automate billing and manage student
+                transactions easily.Collect school fees, automate billing and
+                manage student transactions easily.Collect school fees, automate
+                billing and manage student transactions easily.Collect school
+                fees, automate billing and manage student transactions
+                easily.Collect school fees, automate billing and manage student
+                transactions easily.Collect school fees, automate billing and
+                manage student transactions easily.
+              </p>
+            </div>
+
+            <div id="bfsi" class="tab-content hidden">
+              <h3 class="text-4xl font-bold mb-4">
+                Secure <span class="text-[#134E4A]">banking solutions</span>
+              </h3>
+              <p class="text-gray-600 mb-6">
+                Enable fast financial transactions and digital payment
+                experiences.Enable fast financial transactions and digital
+                payment experiences.Enable fast financial transactions and
+                digital payment experiences.Enable fast financial transactions
+                and digital payment experiences.Enable fast financial
+                transactions and digital payment experiences.
+              </p>
+            </div>
+
+            <div id="saas" class="tab-content hidden">
+              <h3 class="text-4xl font-bold mb-4">
+                Grow your <span class="text-[#134E4A]">SaaS platform</span>
+              </h3>
+              <p class="text-gray-600 mb-6">
+                Handle subscriptions, recurring payments and global billing
+                easily.Handle subscriptions, recurring payments and global
+                billing easily.Handle subscriptions, recurring payments and
+                global billing easily.Handle subscriptions, recurring payments
+                and global billing easily.Handle subscriptions, recurring
+                payments and global billing easily.Handle subscriptions,
+                recurring payments and global billing easily.
+              </p>
+            </div>
+          </div>
+
+          <!-- Image -->
+          <div
+            id="tabImage"
+            class="rounded-xl shadow-lg w-full h-[420px] bg-cover bg-center"
+            style="background-image: url(&quot;/images/ecommerce.jpg&quot;)"
+          ></div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+    <section class="bg-gray-100 py-16 px-6">
+  <div class="max-w-6xl mx-auto">
+
+    <!-- Heading -->
+    <div class="text-center mb-14">
+      <h2 class="text-4xl font-bold mb-7">Bulk File Uploaded</h2>
+      <p class="text-gray-600 mt-2">Upload File and approve</p>
+      <div class="w-20 h-1 bg-[#134E4A] mx-auto mt-4 rounded"></div>
+    </div>
+
+    <div class="grid md:grid-cols-2 gap-12 items-center">
+
+      <!-- Left Content -->
+      <div>
+        <h3 class="text-2xl font-medium text-gray-800 mb-6">Bulk Upload</h3>
+
+        <ul class="space-y-4">
+
+          <li class="flex items-center gap-3">
+            <span class="flex items-center justify-center w-6 h-6 bg-yellow-400 text-white rounded-full text-sm">✓</span>
+            <span class="text-gray-700">Simple Approval or multi user approval workflow</span>
+          </li>
+
+          <li class="flex items-center gap-3">
+            <span class="flex items-center justify-center w-6 h-6 bg-yellow-400 text-white rounded-full text-sm">✓</span>
+            <span class="text-gray-700">Duplicate File checker mechanism (Industry first)</span>
+          </li>
+
+          <li class="flex items-center gap-3">
+            <span class="flex items-center justify-center w-6 h-6 bg-yellow-400 text-white rounded-full text-sm">✓</span>
+            <span class="text-gray-700">Multi factor authentication</span>
+          </li>
+
+          <li class="flex items-center gap-3">
+            <span class="flex items-center justify-center w-6 h-6 bg-yellow-400 text-white rounded-full text-sm">✓</span>
+            <span class="text-gray-700">Maker-checker</span>
+          </li>
+
+        </ul>
+      </div>
+
+      <!-- Right Upload Card -->
+      <div class="flex justify-center">
+        <div class="border-2 border-[#134E4A] rounded-2xl p-8 w-full max-w-md bg-white shadow-lg">
+
+          <h4 class="text-xl font-semibold text-gray-700 mb-6">
+            Upload Batch File
+          </h4>
+
+          <div class="space-y-4 mb-6">
+            <div class="h-3 bg-gray-200 rounded w-full"></div>
+            <div class="h-3 bg-gray-200 rounded w-2/3"></div>
+          </div>
+
+          <label class="flex items-center gap-3 text-[#134E4A] cursor-pointer mb-6">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                d="M4 16v2a2 2 0 002 2h12a2 2 0 002-2v-2M12 4v12m0 0l-4-4m4 4l4-4"/>
+            </svg>
+            <span>Choose a File</span>
+            <input type="file" class="hidden">
+          </label>
+          <button class="w-full bg-[#134E4A] hover:bg-green-700 text-white py-3 rounded-lg font-semibold shadow">
+            Confirm
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <section id="pricing" class="py-20 px-6 w-full">
+      <!-- max-w-7xl mx-auto text-center -->
+      <div class="max-w-7xl mx-auto text-center">
+        <!-- Heading – extra attractive using tailwind gradient, clip, and underline -->
+        <h2 class="text-4xl font-bold mb-7">Payout Pricing</h2>
+
+        <!-- grid md:grid-cols-3 gap-8 -->
+        <div class="grid md:grid-cols-3 gap-8">
+          <!-- Card 1 – IMPS / NEFT – original border-b-4 border-green-700 but enhanced -->
+          <div
+            class="bg-white rounded-lg shadow-xl overflow-hidden animate-lift transition-all duration-200 flex flex-col"
+          >
+            <!-- Header: bg-green-700 text-white py-6 px-4 text-2xl font-semibold + icon -->
+            <div
+              class="bg-gradient-to-br from-[#134E4A] to-[#134E4A] text-white py-3 px-5 flex flex-col items-center gap-2"
+            >
+              <i class="fas fa-university text-4xl drop-shadow-md"></i>
+              <span class="text-2xl font-bold tracking-tight">IMPS / NEFT</span>
+              <span class="text-sm font-light opacity-90 -mt-1"
+                >payout APIs</span
+              >
+            </div>
+
+            <!-- Content area with alternating bg-gray-100 -->
+            <div class="text-gray-800 divide-y divide-gray-200/70 flex-1">
+              <!-- row with bg-gray-100 (original) -->
+              <div
+                class="py-5 bg-gray-100 flex items-center justify-center gap-3 text-base font-medium"
+              >
+                <i class="fas fa-code text-[#134E4A] text-sm"></i>
+                <span>Fund Transfer APIs</span>
+                <span
+                  class="bg-green-100 text-green-800 px-3 py-0.5 rounded-full text-xs font-semibold"
+                  >bank account</span
+                >
+              </div>
+
+              <div class="py-5 flex items-center justify-between px-6">
+                <span class="flex items-center gap-2"
+                  ><i class="fas fa-bank text-[#134E4A] w-5"></i>NEFT /
+                  RTGS</span
+                >
+                <span
+                  class="font-mono font-bold text-lg text-green-800 bg-green-50 px-4 py-1 rounded-full"
+                  >₹2</span
+                >
+              </div>
+
+              <div
+                class="py-5 bg-gray-100 flex items-center justify-between px-6"
+              >
+                <span class="flex items-center gap-2"
+                  ><i class="fas fa-mobile-alt text-[#134E4A] w-5"></i>IMPS
+                  below 999</span
+                >
+                <span
+                  class="font-mono font-bold text-lg text-green-800 bg-green-50 px-4 py-1 rounded-full"
+                  >₹2</span
+                >
+              </div>
+
+              <div class="py-5 flex items-center justify-between px-6">
+                <span class="flex items-center gap-2"
+                  ><i class="fas fa-arrow-up text-[#134E4A] w-5"></i>IMPS below
+                  25k</span
+                >
+                <span
+                  class="font-mono font-bold text-lg text-green-800 bg-green-50 px-4 py-1 rounded-full"
+                  >₹5</span
+                >
+              </div>
+
+              <div
+                class="py-5 bg-gray-100 flex items-center justify-between px-6"
+              >
+                <span class="flex items-center gap-2"
+                  ><i class="fas fa-bolt text-[#134E4A] w-5"></i>IMPS above
+                  25k</span
+                >
+                <span
+                  class="font-mono font-bold text-lg text-green-800 bg-green-50 px-4 py-1 rounded-full"
+                  >₹9</span
+                >
+              </div>
+            </div>
+            <!-- tiny footnote (optional) -->
+            <div
+              class="text-xs text-gray-400 text-center py-2 border-t border-gray-100"
+            >
+              ₹2 – ₹9 per transaction
+            </div>
+          </div>
+
+          <!-- Card 2 – UPI Payout (original border-b-4 border-green-700) -->
+          <div
+            class="bg-white rounded-lg shadow-xl overflow-hidden animate-lift transition-all duration-200 flex flex-col"
+          >
+            <div
+              class="bg-gradient-to-br from-green-700 to-[#134E4A] text-white py-3 px-5 flex flex-col items-center gap-2"
+            >
+              <i class="fab fa-google-pay text-4xl drop-shadow-md"></i>
+              <!-- upi icon -->
+              <span class="text-2xl font-bold tracking-tight">UPI payout</span>
+              <span class="text-sm font-light opacity-90 -mt-1"
+                >VPAs & apps</span
+              >
+            </div>
+
+            <div class="text-gray-800 divide-y divide-gray-200/70 flex-1">
+              <div
+                class="py-5 bg-gray-100 flex items-center justify-center gap-3 text-base font-medium"
+              >
+                <i class="fas fa-qrcode text-[#134E4A]"></i>
+                <span>Fund Transfer APIs</span>
+                <span
+                  class="bg-green-100 text-green-800 px-3 py-0.5 rounded-full text-xs font-semibold"
+                  >UPI</span
+                >
+              </div>
+
+              <div class="py-5 flex items-center justify-between px-6">
+                <span class="flex items-center gap-2"
+                  ><i class="fas fa-wallet text-[#134E4A] w-5"></i>UPI below
+                  999</span
+                >
+                <span
+                  class="font-mono font-bold text-lg text-green-800 bg-green-50 px-4 py-1 rounded-full"
+                  >₹4</span
+                >
+              </div>
+
+              <div
+                class="py-5 bg-gray-100 flex items-center justify-between px-6"
+              >
+                <span class="flex items-center gap-2"
+                  ><i class="fas fa-chart-line text-[#134E4A] w-5"></i>UPI below
+                  25k</span
+                >
+                <span
+                  class="font-mono font-bold text-lg text-green-800 bg-green-50 px-4 py-1 rounded-full"
+                  >₹7</span
+                >
+              </div>
+
+              <div class="py-5 flex items-center justify-between px-6">
+                <span class="flex items-center gap-2"
+                  ><i class="fas fa-rocket text-[#134E4A] w-5"></i>UPI above
+                  25k</span
+                >
+                <span
+                  class="font-mono font-bold text-lg text-green-800 bg-green-50 px-4 py-1 rounded-full"
+                  >₹10</span
+                >
+              </div>
+
+              <!-- hidden row to match height with card 1? we add an invisible row (same pattern as card1 but empty) -->
+              <div
+                class="py-5 bg-gray-100 opacity-0 pointer-events-none select-none"
+              >
+                place
+              </div>
+            </div>
+            <div
+              class="text-xs text-gray-400 text-center py-2 border-t border-gray-100"
+            >
+              fast & simple
+            </div>
+          </div>
+
+          <!-- Card 3 – Enterprise (original border-green-500, bg-lime-500) -->
+          <div
+            class="bg-white rounded-lg shadow-xl overflow-hidden animate-lift transition-all duration-200 flex flex-col relative"
+          >
+            <!-- lime header gradient (custom) -->
+            <div
+              class="bg-gradient-to-br from-lime-500 to-[#134E4A] text-white py-3 px-5 flex flex-col items-center gap-2"
+            >
+              <i class="fas fa-building text-4xl drop-shadow-md"></i>
+              <span class="text-2xl font-bold tracking-tight">Enterprise</span>
+              <span
+                class="bg-white/30 text-white px-4 py-0.5 rounded-full text-xs font-semibold tracking-wide"
+                >volume 50k+</span
+              >
+            </div>
+
+            <div class="text-gray-800 divide-y divide-gray-200/70 flex-1">
+              <div
+                class="py-6 bg-gray-100 flex items-center justify-center gap-3 font-medium"
+              >
+                <i class="fas fa-chart-pie text-lime-600"></i>
+                <span>50,000+ payouts / month</span>
+              </div>
+
+              <div class="py-8 flex flex-col items-center gap-3 px-4">
+                <i class="fas fa-gem text-3xl text-lime-600 opacity-80"></i>
+                <span
+                  class="font-bold text-xl bg-gradient-to-r from-green-800 to-lime-700 bg-clip-text text-transparent"
+                  >Customised pricing</span
+                >
+                <span class="text-sm text-gray-600"
+                  >tailored to your volume</span
+                >
+                <!-- extra attractive call to action (pure tailwind) -->
+                <button
+                  class="mt-2 bg-[#134E4A] text-white px-7 py-2.5 rounded-full text-sm font-semibold shadow-md hover:shadow-xl transition flex items-center gap-2"
+                >
+                  <i class="fas fa-headset"></i> Contact team
+                </button>
+              </div>
+            </div>
+            <!-- no extra border, just a pad -->
+            <!-- <div class="h-1 bg-gradient-to-r from-lime-200 to-green-200"></div> -->
+          </div>
+        </div>
+
+        <!-- additional footnote using only tailwind -->
+        <div
+          class="mt-12 flex items-center justify-center text-sm text-gray-500 gap-3"
+        >
+          <i class="fas fa-shield-alt text-[134E4A]"></i>
+          <span
+            >All prices in INR · no hidden fees · GST extra where
+            applicable</span
+          >
+          <i class="fas fa-regular fa-credit-card text-[134E4A]"></i>
+        </div>
+      </div>
+    </section>
+
+    <section id="payoutapis" class="py-16 px-6">
+      <div class="max-w-5xl mx-auto">
+        <!-- Heading -->
+        <div class="text-center mb-12">
+           <h2 class="text-4xl font-bold mb-7">Payout APIs</h2>
+          <p class="text-gray-600 mt-2">
+            Simple fund transfer APIs to automate your payouts flow
+          </p>
+
+          <div class="w-20 h-1 bg-[#134E4A] mx-auto mt-4 rounded"></div>
+        </div>
+
+        <!-- FUND TRANSFER API -->
+        <div class="mb-12">
+          <h3 class="text-xl font-semibold text-gray-800 mb-2">
+            FUND TRANSFER API
+          </h3>
+
+          <p class="text-gray-600 mb-4">
+            Call Fund transfer API with the unique request id, beneficiary
+            details, mode and amount.
+          </p>
+
+          <p class="text-gray-700 font-medium mb-4">
+            Fund Transfer API Request
+          </p>
+
+          <!-- Code Block -->
+          <div
+            class="bg-gray-900 text-gray-200 rounded-2xl p-6 overflow-x-auto shadow-lg"
+          >
+            <pre><code>{
+  <span class="text-red-400">"requestId"</span>: <span class="text-blue-300">"pout202008260002"</span>,
+  <span class="text-red-400">"beneficiaryName"</span>: <span class="text-blue-300">"Demo Company"</span>,
+  <span class="text-red-400">"accountNo"</span>: <span class="text-blue-300">"900900900900"</span>,
+  <span class="text-red-400">"ifscCode"</span>: <span class="text-blue-300">"UTIB0002951"</span>,
+  <span class="text-red-400">"amount"</span>: <span class="text-green-400">5000</span>,
+  <span class="text-red-400">"mode"</span>: <span class="text-blue-300">"IMPS"</span>,
+  <span class="text-red-400">"purpose"</span>: <span class="text-blue-300">"For Invoice 20220200789"</span>
+}</code></pre>
+          </div>
+        </div>
+
+        <!-- STATUS API -->
+        <div>
+          <h3 class="text-xl font-semibold text-gray-800 mb-2">STATUS API</h3>
+
+          <p class="text-gray-600 mb-4">
+            Call the status API with request id to know the fund transfer status
+          </p>
+
+          <p class="text-gray-700 font-medium mb-4">
+            Fund Transfer Status API Response
+          </p>
+
+          <!-- Code Block -->
+         <div class="bg-gray-900 text-gray-200 rounded-2xl p-6 overflow-x-auto shadow-lg">
+<pre><code>{
+  <span class="text-red-400">"code"</span>: <span class="text-green-400">200</span>,
+  <span class="text-red-400">"message"</span>: <span class="text-blue-300">"success"</span>,
+  <span class="text-red-400">"data"</span>: {
+    <span class="text-red-400">"requestId"</span>: <span class="text-blue-300">"pout202008260002"</span>,
+    <span class="text-red-400">"ReferenceNo"</span>: <span class="text-blue-300">"PTV2d3vBs9O5bA3SeflYehOjcurx7u"</span>,
+    <span class="text-red-400">"accountNo"</span>: <span class="text-blue-300">"900900900900"</span>,
+    <span class="text-red-400">"ifscCode"</span>: <span class="text-blue-300">"UTIB0002951"</span>,
+    <span class="text-red-400">"amount"</span>: <span class="text-green-400">5000</span>,
+    <span class="text-red-400">"fee"</span>: <span class="text-green-400">5</span>,
+    <span class="text-red-400">"tax"</span>: <span class="text-green-400">90</span>,
+    <span class="text-red-400">"totalFee"</span>: <span class="text-green-400">5.9</span>,
+    <span class="text-red-400">"mode"</span>: <span class="text-blue-300">"IMPS"</span>,
+    <span class="text-red-400">"purpose"</span>: <span class="text-blue-300">"For Invoice 20220200789"</span>,
+    <span class="text-red-400">"utrNumber"</span>: <span class="text-blue-300">"24110980363"</span>,
+    <span class="text-red-400">"statusCode"</span>: <span class="text-blue-300">"SUCCESS"</span>,
+    <span class="text-red-400">"status"</span>: <span class="text-blue-300">"Success"</span>,
+    <span class="text-red-400">"errorDescription"</span>: <span class="text-blue-300">""</span>
+  }
+}</code></pre>
+</div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="relative bg-cover bg-center py-24 px-6"
+      style="background-image: url(&quot;/images/cta.jpeg&quot;)"
+    >
+      <!-- Dark overlay -->
+      <div class="absolute inset-0 bg-black/60"></div>
+
+      <div class="relative max-w-7xl mx-auto">
+        <!-- Content -->
+        <div class="max-w-xl text-white">
+          <h2 class="text-4xl md:text-5xl font-bold leading-tight">
+            Ready to streamline your
+            <span class="text-yellow-400">Payout Operations?</span>
+          </h2>
+
+          <p class="mt-5 text-lg text-gray-200">
+            Automate your business payouts with fast, secure, and reliable
+            payment solutions. Send instant transfers to vendors, employees, and
+            partners with ease.
+          </p>
+
+          <div class="mt-8 flex gap-4 flex-wrap">
+            <a
+              href="#payoutservices"
+              class="bg-yellow-400 text-[#134E4A] font-semibold px-6 py-3 rounded-lg hover:bg-yellow-300 transition"
+            >
+              Learn More
+            </a>
+
+            <a
+              href="contact.html"
+              class="border border-white px-6 py-3 rounded-lg hover:bg-white hover:text-[#134E4A] transition"
+            >
+              Contact Us
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="faqs" class="py-24 bg-gradient-to-b from-gray-50 to-white">
+      <div class="max-w-4xl mx-auto px-6">
+        <!-- Heading -->
+        <div class="text-center mb-16">
+          <h2 class="text-4xl md:text-5xl font-bold text-gray-900">
+            Frequently Asked Questions
+          </h2>
+          <p class="text-gray-500 mt-4 text-lg">
+            Everything you need to know about our payout and payment services
+          </p>
+        </div>
+
+        <div class="space-y-5">
+          <!-- FAQ 1 -->
+          <div
+            class="faq-item bg-white border border-gray-200 rounded-xl shadow-sm hover:shadow-md transition"
+          >
+            <button
+              onclick="toggleFaq(0)"
+              class="w-full flex justify-between items-center p-6 text-left font-semibold group text-lg text-gray-800 hover:bg-[#4C8A85] hover:text-white rounded-t-xl"
+            >
+              What is a Payout Service?
+
+              <span
+                class="faq-icon text-2xl text-[#134E4A] group-hover:text-gray-200"
+                >+</span
+              >
+            </button>
+
+            <div
+              class="faq-answer px-6 pb-6 text-gray-600 leading-relaxed mt-3"
+            >
+              A payout service allows businesses to send money instantly to bank
+              accounts, UPI IDs, or wallets. It is commonly used for vendor
+              payments, salary disbursements, cashback, commissions, and
+              refunds.
+            </div>
+          </div>
+
+          <!-- FAQ 2 -->
+          <div
+            class="faq-item bg-white border border-gray-200 rounded-xl shadow-sm hover:shadow-md transition"
+          >
+            <button
+              onclick="toggleFaq(1)"
+              class="w-full flex justify-between items-center p-6 text-left font-semibold group text-lg text-gray-800 hover:bg-[#4C8A85] hover:text-white rounded-t-xl"
+            >
+              How quickly are payouts processed?
+
+              <span
+                class="faq-icon text-2xl text-[#134E4A] group-hover:text-gray-200"
+                >+</span
+              >
+            </button>
+
+            <div
+              class="faq-answer hidden px-6 pb-6 text-gray-600 leading-relaxed"
+            >
+              Most payouts are processed instantly via IMPS or UPI. However,
+              settlement time may vary depending on the bank network and working
+              hours.
+            </div>
+          </div>
+
+          <!-- FAQ 3 -->
+          <div
+            class="faq-item bg-white border border-gray-200 rounded-xl shadow-sm hover:shadow-md transition"
+          >
+            <button
+              onclick="toggleFaq(2)"
+              class="w-full flex justify-between items-center p-6 text-left font-semibold group text-lg text-gray-800 hover:bg-[#4C8A85] hover:text-white rounded-t-xl"
+            >
+              Can I integrate payout APIs into my website or app?
+
+              <span
+                class="faq-icon text-2xl text-[#134E4A] group-hover:text-gray-200"
+                >+</span
+              >
+            </button>
+
+            <div
+              class="faq-answer hidden px-6 pb-6 text-gray-600 leading-relaxed"
+            >
+              Yes, developers can easily integrate our payout APIs into their
+              websites or mobile apps to automate payments, vendor settlements,
+              refunds, and commissions.
+            </div>
+          </div>
+
+          <!-- FAQ 4 -->
+          <div
+            class="faq-item bg-white border border-gray-200 rounded-xl shadow-sm hover:shadow-md transition"
+          >
+            <button
+              onclick="toggleFaq(3)"
+              class="w-full flex justify-between items-center p-6 text-left font-semibold group text-lg text-gray-800 hover:bg-[#4C8A85] hover:text-white rounded-t-xl"
+            >
+              Is the payout platform secure?
+
+              <span
+                class="faq-icon text-2xl text-[#134E4A] group-hover:text-gray-200"
+                >+</span
+              >
+            </button>
+
+            <div
+              class="faq-answer hidden px-6 pb-6 text-gray-600 leading-relaxed"
+            >
+              Yes, our platform follows industry security standards with
+              encrypted transactions, secure APIs, and strict compliance
+              guidelines to ensure safe and reliable payouts.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-[#2f3f3d] text-white py-16">
+      <div
+        class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10"
+      >
+        <!-- Logo + About -->
+        <div>
+          <img
+            src="/images/logo.png"
+            alt="Payout Fintech Logo"
+            class="h-16 mb-4"
+          />
+          <p class="text-gray-300 text-sm leading-relaxed mb-4">
+            Payout Fintech provides secure and fast payment infrastructure for
+            businesses to send payouts instantly using APIs.
+          </p>
+        </div>
+
+        <!-- Company -->
+        <div>
+          <h3 class="text-xl text-yellow-400 font-semibold mb-5">
+            Quick Links
+          </h3>
+
+          <ul class="space-y-3 text-gray-300">
+            <li>
+              <a href="#" class="hover:text-white transition">Home</a>
+            </li>
+            <li>
+              <a href="#about" class="hover:text-white transition">About</a>
+            </li>
+            <li>
+              <a href="contact.html" class="hover:text-white transition"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <!-- Payout APIs -->
+        <div>
+          <h3 class="text-xl text-yellow-400 font-semibold mb-5">
+            Payout APIs
+          </h3>
+
+          <ul class="space-y-3 text-gray-300">
+            <li>
+              <a href="#payoutservices" class="hover:text-white transition"
+                >Services</a
+              >
+            </li>
+            <li>
+              <a href="#pricing" class="hover:text-white transition">Pricing</a>
+            </li>
+            <li>
+              <a href="#faqs" class="hover:text-white transition"> FAQs </a>
+            </li>
+              <li>
+              <a href="#payoutapis" class="hover:text-white transition"> Payout APIs </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Legal -->
+        <div>
+          <h3 class="text-xl text-yellow-400 font-semibold mb-5">Legal</h3>
+
+          <ul class="space-y-3 text-gray-300">
+            <li>
+              <a href="terms.html" class="hover:text-white transition">Terms</a>
+            </li>
+            <li>
+              <a href="privacypolicy.html" class="hover:text-white transition"
+                >Privacy</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Bottom -->
+      <div
+        class="border-t border-gray-500 mt-12 pt-6 text-center text-gray-300 text-sm px-6"
+      >
+        Copyright © 2026 Payout Fintech Private Limited. All Rights Reserved.
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
